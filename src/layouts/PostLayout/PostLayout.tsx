@@ -96,7 +96,7 @@ export default function PostLayout({
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                   aria-label="Back to the blog"
                 >
-                  &larr; Back to the blog
+                  &larr; Voltar para o blog
                 </Link>
               </div>
             </footer>

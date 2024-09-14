@@ -10,7 +10,7 @@ const postsDirectory = path.join(process.cwd(), 'data/blog')
 
 export async function getHeadingsTreeFromArticle(id) {
   const fullPath = path.join(postsDirectory, `${id}.mdx`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
+  const fileContents = fs.readFileSync(fullPath, 'utf-8')
 
   const articleData = getArticleDataFromFile(fileContents)
   const markdown = articleData.content
